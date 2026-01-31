@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vertical STG MVP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <div class="hud">
+      <h1>Vertical STG MVP</h1>
+      <p class="help">Move: ↑↓←→ / Shot: Z / Retry: R / Invincible: M</p>
+    </div>
+    <div class="stage">
+      <canvas id="game" width="320" height="288" aria-label="Vertical STG"></canvas>
+      <div id="overlay" class="overlay" role="button" tabindex="0">
+        Click or press any key to start
+      </div>
+    </div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
